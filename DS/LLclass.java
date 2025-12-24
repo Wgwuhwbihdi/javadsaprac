@@ -3,12 +3,10 @@ public class LLclass {
     // This code is created by me
     private Node head;
     private Node tail;
-    private int size;
-
+    private int size;   
     public LLclass() {
         this.size = 0;
-    }
-
+    }         
     private class Node {
         private int value;
         private Node next;
@@ -22,7 +20,6 @@ public class LLclass {
             this.next = next;
         }
     }
-
     // insertfirst position value
     public void inserfirst(int val) {
         Node node = new Node(val);

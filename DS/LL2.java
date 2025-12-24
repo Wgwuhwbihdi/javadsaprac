@@ -13,7 +13,6 @@ public class LL2 {
         public LL2() {
             this.size = 0;   // initially list is empty
         }
-    
         // Inner Node class
         private class Node {
             private int value;  // value stored in this node
